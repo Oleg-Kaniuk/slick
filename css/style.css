@@ -1,5 +1,5 @@
 .slider {
-  width: 1200px;
+  width: 400px;
   margin: 0 auto;
 }
 
@@ -12,9 +12,9 @@
   color: orange;
 }
 
-.your-class > div {
-  width: 200px;
-  height: 150px;
+.slider > div {
+  width: 400px;
+  height: 100%;
   background-color: #ccc;
   border: 2px solid white;
 }
@@ -72,26 +72,12 @@
   left: 0;
   width: 20px;
   height: 20px;
-  content: "•";
+  content: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Rule_Segment_-_Circle_open_-_20px.svg");
   text-align: center;
   opacity: 0.25;
   color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* Обводка маркеров */
-
-  /* WebKit (Safari/Chrome) Only */
-  -webkit-text-stroke: 1px red;
-  /* If we weren't using text-shadow, we'd set a fallback color
-     and use this to set color instead
-    -webkit-text-fill-color: white; */
-  text-shadow: 1px 1px 0 #f00,
-    /* Simulated effect for Firefox and Opera
-       and nice enhancement for WebKit */ -1px -1px
-      0 #f00,
-    1px -1px 0 #f00, -1px 1px 0 #f00, 1px 1px 0 #f00;
-  /* / Обводка маркеров */
 }
 
 .my-dots li.slick-active button:before {
